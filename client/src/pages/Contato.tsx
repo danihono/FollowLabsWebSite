@@ -205,10 +205,10 @@ export default function Contato() {
                     <div>
                       <p className="font-semibold text-foreground mb-1">E-mail</p>
                       <a
-                        href="mailto:contato@followlabs.com.br"
+                        href="mailto:email@followlabs.com.br"
                         className="text-muted-foreground hover:text-primary transition-colors"
                       >
-                        contato@followlabs.com.br
+                        email@followlabs.com.br
                       </a>
                     </div>
                   </div>
@@ -220,7 +220,7 @@ export default function Contato() {
                     <div>
                       <p className="font-semibold text-foreground mb-1">LinkedIn</p>
                       <a
-                        href="https://linkedin.com"
+                        href="https://www.linkedin.com/in/followadvisor/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-muted-foreground hover:text-primary transition-colors"

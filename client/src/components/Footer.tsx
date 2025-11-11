@@ -69,13 +69,13 @@ export default function Footer() {
                   className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center space-x-2"
                 >
                   <Mail className="h-4 w-4" />
-                  <span>contato@followlabs.com.br</span>
+                  <span>email@followlabs.com.br</span>
                 </a>
               </li>
             </ul>
             <div className="flex items-center space-x-4 mt-4">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/followadvisor/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
