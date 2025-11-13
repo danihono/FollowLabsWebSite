@@ -69,7 +69,7 @@ export default function Footer() {
                   className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center space-x-2"
                 >
                   <Mail className="h-4 w-4" />
-                  <span>email@followlabs.com.br</span>
+                  <span>contato@followlabs.com.br</span>
                 </a>
               </li>
             </ul>
