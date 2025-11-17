@@ -13,6 +13,8 @@ import Blog from "./pages/Blog";
 import Contato from "./pages/Contato";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import WhatsAppButton from "./components/ui/WhatsAppButton";
+
 
 function Router() {
   return (
@@ -43,6 +45,7 @@ function App() {
           <Toaster />
           <Router />
         </TooltipProvider>
+         <WhatsAppButton />
       </ThemeProvider>
     </ErrorBoundary>
   );
