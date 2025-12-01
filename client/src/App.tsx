@@ -14,12 +14,16 @@ import Contato from "./pages/Contato";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import WhatsAppButton from "./components/ui/WhatsAppButton";
-
+import ScrollProgress from "./components/ScrollProgress";
 
 function Router() {
   return (
     <>
       <Header />
+
+      {/* ⭐ Barra de progresso fica aqui! */}
+      <ScrollProgress />
+
       <Switch>
         <Route path={"/"} component={Home} />
         <Route path="/sobre" component={Sobre} />
@@ -29,9 +33,11 @@ function Router() {
         <Route path="/blog" component={Blog} />
         <Route path="/contato" component={Contato} />
         <Route path={"/404"} component={NotFound} />
-        {/* Final fallback route */}
+
+        {/* fallback */}
         <Route component={NotFound} />
       </Switch>
+
       <Footer />
     </>
   );
@@ -45,7 +51,8 @@ function App() {
           <Toaster />
           <Router />
         </TooltipProvider>
-         <WhatsAppButton />
+
+        <WhatsAppButton />
       </ThemeProvider>
     </ErrorBoundary>
   );
